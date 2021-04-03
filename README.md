@@ -45,5 +45,5 @@ cd bikcraft
 Após isso, você pode usar uma ferramenta como o <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> para utilizar seu pc mesmo como um servidor local e assim poder executar o projeto de maneira mais fluida.
 
 
-
+# 
 Desenvolvido por <a href="https://github.com/leonardo-mrt">Leonardo Martins</a> 😎👍
