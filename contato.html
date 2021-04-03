@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Bikcraft - Contato</title>
+    <meta name="description" content="Lutando para construir as melhores bicicletas personalizadas de todo o Brasil. Possuímos modelos Passeio, Esporte e Retrô.">
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Bikcraft - Contato"/>
+    <meta property="og:description" content="Lutando para construir as melhores bicicletas personalizadas de todo o Brasil. Possuímos modelos Passeio, Esporte e Retrô."/>
+    <meta property="og:url" content="http://bikcraft.com"/>
+    <meta property="og:image" content="https://bikcraft.com/img/og-image.png"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>document.documentElement.classList.add("js")</script>
+  </head>
+
+  <body>
+
+    <!-- INÍCIO - HEADER -->
+
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="grid-2">
+          <img src="img/bikcraft.svg" alt="Bikcraft">
+        </a>
+        <nav class="header_menu grid-14">
+          <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="produtos.html" >Produtos</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html" class="menu-ativo">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- FIM - HEADER -->
+
+    <!-- INÍCIO - TITULO INTERNO -->
+    <section data-anime="000" class="introducao-interna interna-contato">
+      <div data-anime="200" class="fadeInDown container">
+        <h1 class="grid-16">Contato</h1>
+        <p>tire suas dúvidas com a gente</p>
+      </div>
+    </section>
+   <!-- FIM - TITULO INTERNO -->
+
+
+
+    <!-- INÍCIO - CONTATO -->
+    <section data-anime="600" class="fadeInDown contato">
+      <div class="container"> 
+        <form method="POST" action="./sendgrid" class="form-contato grid-8 formphp">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+          <label for="e-mail">E-mail</label>
+          <input type="email" id="e-mail" name="email" required>
+          <label for="telefone">Telefone</label>
+
+         
+          <label class="nao-aparece">se vc não é um robô, deixe em branco</label>
+          <input type="text" class="nao-aparece" name="leaveblank">
+          <label class="nao-aparece">se vc não é um robô, nao preencha esse campo</label>
+          <input type="text" class="nao-aparece" name="dontchange">
+         
+          
+          <input type="text" id="telefone">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+          <button type="submit" id="enviar" class="button button-preto">Enviar</button>
+        </form>
+
+        <div class="contato-dados grid-8">
+          <h3>Dados</h3>
+          <span>+55 11 4002-8922</span>
+          <span>orcamento@bikcraft.com</span>
+          <span>Av. Carlos Borges Antunes, 5489</span>
+          <span>Lorena - SP - Brasil</span>
+          <h3>Redes Sociais</h3>
+            <ul>
+              <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="facebook"></a></li>
+              <li><a href="https://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter"></a></li>
+              <li><a href="https://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Twitter"></a></li>
+            </ul>
+        </div>
+      </div>
+    </section>
+    <!-- FIM - CONTATO -->
+
+    <!-- INÍCIO - MAPA -->
+     <section data-anime="1000" class="fadeInDown container">
+      <a href="https://google.com/maps" target="_blank"><img src="img/endereco-bikcraft.jpg" alt="localização" class="grid-16 contato-mapa"></a>
+    </section>
+    <!-- FIM - MAPA -->
+
+    <!-- INÍCIO - FOOTER -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+
+          <div class="grid-6">
+            <h3>Nossa História</h3>
+            <p class="footer-historia">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do 'eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do</p>
+          </div>
+
+          <div class="grid-5">
+            <h3>CONTATO</h3>
+            <ul class="footer-contatos">
+              <li>- 11  4002-8922</li>
+              <li>- contato@bikcraft.com.br</li>
+              <li>- Av. Carlos Borges Antunes, 5489, Lorena - SP</li>
+            </ul>
+          </div>
+
+          <div class="grid-5 footer-redes">
+            <h3>Redes Sociais</h3>
+            <ul>
+              <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="facebook"></a></li>
+              <li><a href="https://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter"></a></li>
+              <li><a href="https://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Twitter"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <p class="grid-16">© Bikcraft 2021 - Todos os direitos reservados</p>
+        </div>
+        <p></p>
+      </div>
+    </footer>
+    <!-- FIM- FOOTER -->
+
+   
+  </body>
+
+  <script src="js/simple-anime.js"></script>
+  <script src="js/simple-form.js"></script>
+  <script src="js/script.js"></script>
+  
+</html>

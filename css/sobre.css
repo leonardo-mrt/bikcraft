@@ -1,0 +1,42 @@
+/* INÍCIO - SOBRE.CSS */
+.interna-sobre{
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna-sobre p{
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.missao-sobre{
+  padding-top: 30px;
+}
+
+.subtitulo-interno{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitulo-interno::after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #000;
+  margin: 5px 0 25px 0;
+}
+
+.missao-sobre p{
+  margin-top: 1em;
+  line-height: 21px;
+}
+
+.foto-equipe{
+  padding-top: 20px;
+}
+
+.qualidade{
+  margin-bottom: 45px;
+}
+/* FIM - SOBRE.CSS */

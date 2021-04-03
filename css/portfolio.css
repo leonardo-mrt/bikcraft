@@ -1,0 +1,35 @@
+/* INÍCIO - PORTFOLIO.CSS */
+.interna-portfolio{
+  background: url("../img/bg-portfolio.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna-portfolio p{
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.portfolio{
+  padding: 40px 0;
+}
+
+.quote-clientes{
+  padding: 40px 0;
+  margin: 0 auto;
+  max-width: 420px;
+}
+
+.quote-clientes p{
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.quote-clientes cite{
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  font-style: normal;
+}
+/* FIM - PORTFOLIO.CSS */
